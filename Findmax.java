@@ -16,11 +16,9 @@ public class Findmax {
             numbers[i] = input.nextInt();
         }
 
-        // Assume the first element is the maximum
         int max = numbers[0];
         int maxIndex = 0;
 
-        // Search for the maximum value
         for (int i = 1; i < size; i++) {
             if (numbers[i] > max) {
                 max = numbers[i];
@@ -28,7 +26,6 @@ public class Findmax {
             }
         }
 
-        // Display the result
         System.out.println("\n===== RESULT =====");
         System.out.println("Maximum value: " + max);
         System.out.println("Index: " + maxIndex);
